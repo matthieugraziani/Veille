@@ -1,0 +1,30 @@
+# --- Environnement virtuel ---
+.venv/
+env/
+venv/
+
+# --- Fichiers sensibles ---
+.env
+
+# --- Historique PDF ---
+historique_reports/
+*.pdf
+
+# --- Fichiers Python compilés ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Fichiers VS Code ---
+.vscode/
+*.code-workspace
+
+# --- Logs et temporaires ---
+*.log
+*.tmp
+*.bak
+
+# --- Système ---
+.DS_Store
+Thumbs.db
